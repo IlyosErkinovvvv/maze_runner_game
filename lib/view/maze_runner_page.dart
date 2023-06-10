@@ -26,7 +26,7 @@ class _MazeRunnerPageState extends State<MazeRunnerPage> {
             'https://image.flaticon.com/icons/png/512/1506/1506339.png',
             ImageType.network,
           ),
-          onFinish: () => print('Hi from finish line!'),
+          onFinish: () => debugPrint('Hi from finish line!'),
         ),
       ),
     );
